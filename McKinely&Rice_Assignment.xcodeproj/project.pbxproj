@@ -14,6 +14,9 @@
 		144617FA2410F365000056B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144617F92410F365000056B0 /* Assets.xcassets */; };
 		144617FD2410F365000056B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144617FB2410F365000056B0 /* LaunchScreen.storyboard */; };
 		144618082410F366000056B0 /* McKinely_Rice_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144618072410F366000056B0 /* McKinely_Rice_AssignmentTests.swift */; };
+		144618132410F6D7000056B0 /* AppCommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144618122410F6D7000056B0 /* AppCommonData.swift */; };
+		1446181524110296000056B0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446181424110296000056B0 /* WebViewController.swift */; };
+		1446181824110602000056B0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446181724110601000056B0 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		144618032410F366000056B0 /* McKinely&Rice_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McKinely&Rice_AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		144618072410F366000056B0 /* McKinely_Rice_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McKinely_Rice_AssignmentTests.swift; sourceTree = "<group>"; };
 		144618092410F366000056B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144618122410F6D7000056B0 /* AppCommonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCommonData.swift; sourceTree = "<group>"; };
+		1446181424110296000056B0 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		1446181724110601000056B0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1446181824110602000056B0 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,7 @@
 				144617EF2410F350000056B0 /* McKinely&Rice_Assignment */,
 				144618062410F366000056B0 /* McKinely&Rice_AssignmentTests */,
 				144617EE2410F350000056B0 /* Products */,
+				1446181624110600000056B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +87,7 @@
 		144617EF2410F350000056B0 /* McKinely&Rice_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				144618122410F6D7000056B0 /* AppCommonData.swift */,
 				144617F02410F350000056B0 /* AppDelegate.swift */,
 				144617F22410F350000056B0 /* SceneDelegate.swift */,
 				144617F42410F350000056B0 /* ViewController.swift */,
@@ -86,6 +95,7 @@
 				144617F92410F365000056B0 /* Assets.xcassets */,
 				144617FB2410F365000056B0 /* LaunchScreen.storyboard */,
 				144617FE2410F365000056B0 /* Info.plist */,
+				1446181424110296000056B0 /* WebViewController.swift */,
 			);
 			path = "McKinely&Rice_Assignment";
 			sourceTree = "<group>";
@@ -97,6 +107,14 @@
 				144618092410F366000056B0 /* Info.plist */,
 			);
 			path = "McKinely&Rice_AssignmentTests";
+			sourceTree = "<group>";
+		};
+		1446181624110600000056B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1446181724110601000056B0 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +220,8 @@
 			files = (
 				144617F52410F350000056B0 /* ViewController.swift in Sources */,
 				144617F12410F350000056B0 /* AppDelegate.swift in Sources */,
+				144618132410F6D7000056B0 /* AppCommonData.swift in Sources */,
+				1446181524110296000056B0 /* WebViewController.swift in Sources */,
 				144617F32410F350000056B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
